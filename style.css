@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 350px;
+    height: 580px;
+    border-radius: 14px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.img-sec{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+}
+
+.white{
+    color: hsl(0, 0%, 100%);
+}
+.box{
+    height: 40%;
+}
+.op{
+    width: 90%;
+    height: 90%;
+    border-radius: 14px;
+}
+
+.cyan{
+    color: hsl(178, 100%, 50%);
+}
+.outfit{
+    font-family: 'Outfit', sans-serif;
+}
+.grey{
+    color: grey;
+}
+
+.content{
+    height: 100%;
+    width: 90%;
+    margin-left: 17px;
+}
+.tag{
+    height: 25%;
+}
+.desc{
+    height: 30%;
+    font-weight: 100;
+}
+
+.icon-clock{
+    padding-right: 7px;
+}
+.txt{
+    font-size: 18px;
+}
+.etc{
+    padding-left: 8px;
+    display: flex;
+}
+.icon-eth{
+    color: grey;
+}
+.price{
+    padding-left: 8px;
+}
+.info{
+    display: flex;
+    height: 20%;
+}
+
+.time{
+    display: flex;
+    margin-left: 114px;
+}
+.creator{
+    display: flex;
+    align-items: center;
+}
+.icon-face{
+    margin-top: 8px;
+}
+
+.avtr{
+    width: 35px;
+    height: 35px;
+    border:2px solid white;
+}
+.cb{
+margin-left: 12px;
+}
+
+.name{
+    margin-left: 5px;
+}
+
