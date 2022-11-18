@@ -83,6 +83,9 @@ body{
     display: flex;
     height: 20%;
 }
+.hr{
+    width: 100%;
+}
 
 .time{
     display: flex;
@@ -94,13 +97,13 @@ body{
 }
 .icon-face{
     margin-top: 8px;
+    border-radius: 12px;
 }
 
 .avtr{
     width: 35px;
     height: 35px;
     border:2px solid white;
-    border-radius: 18px;
 }
 .cb{
 margin-left: 12px;
@@ -110,3 +113,86 @@ margin-left: 12px;
     margin-left: 5px;
 }
 
+@media screen and (max-width: 400px){
+    .container, .etc, .time, .creator, .txt{
+        font-size: 17px
+        
+    }
+
+    .price, .date{
+        font-size: 14px;
+    }
+    .container{
+        width: 90vw;
+    }
+    
+.hr{
+    width: 100%;
+}
+    
+}
+
+@media screen and (max-width: 365px){
+    .container, .etc, .time, .creator, .txt{
+        font-size: 17px;
+    }
+    .price, .date{
+        font-size: 11px;
+    }
+    .container{
+        width: 90vw;
+    } 
+    
+.hr{
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 338px){
+    .container, .etc, .time, .creator, .txt{
+        font-size: 14px;
+    }
+    .container{
+        width: 90vw;
+    } 
+    .price, .date{
+        font-size: 12px;
+    }
+
+    .content{
+        width: 90vw;
+    }
+    .time{
+        margin: 0;
+        padding-left: 12px;
+    }
+
+        
+    .hr{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 269px){
+    .price, .date{
+        width: 86%;
+    }
+    .desc{
+        height: 40%;
+    }
+    .creator{
+        height: 60%;
+    }
+
+    
+.hr{
+    width: 100%;
+}
+}
+@media screen and (max-width: 240px){
+    
+.hr{
+    width: 90%;
+}
+}
